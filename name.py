@@ -4,7 +4,7 @@ da = 0.10 * basic_salary
 total_salary = basic_salary + hra + da
 tax = 0.05 * total_salary
 net_salary = total_salary - tax
-print("\n--- Salary Details ---")
+print("\n--- Salary Details of the Employee---")
 print(f"Basic Salary : {basic_salary:.2f}")
 print(f"HRA (20%)    : {hra:.2f}")
 print(f"DA (10%)     : {da:.2f}")
